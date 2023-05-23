@@ -10,6 +10,10 @@
 
 **Ответ:**
 
+Первая нода
+
 ![1-1](https://github.com/SemkinVA/10.1-HW/blob/main/1-1.png)
+
+Вторая нода
 
 ![1-2](https://github.com/SemkinVA/10.1-HW/blob/main/1-2.png)
