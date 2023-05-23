@@ -14,17 +14,17 @@
 
 ```
 vrrp_instance failover_test {
-state BACKUP
+state MASTER
 interface enp0s3
 virtual_router_id 10
-priority 100
+priority 110
 advert_int 4
 authentication {
 auth_type AH
 auth_pass 1111
 }
 unicast_peer {
-192.168.88.190
+192.168.88.191
 }
 virtual_ipaddress {
 192.168.88.240 dev enp0s8 label enp0s3:vip
